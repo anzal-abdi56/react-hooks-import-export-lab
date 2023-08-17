@@ -1,6 +1,9 @@
 import React from "react";
+import { username, city } from "../data/user.js";
+function Home() {
+  const username = "Liza";
+  const city = "New York";
 
-function Home({username,city}) {
   return (
     <div id="home">
       <h1>
